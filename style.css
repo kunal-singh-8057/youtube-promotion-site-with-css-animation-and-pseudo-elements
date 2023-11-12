@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-image: url('bg.jpg');
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	background-size: cover;
+}
+
+ul{
+	list-style: none;
+}
+
+ul li{
+	margin-left: 45%;
+	padding-top: 10px;
+
+}
+
+ul li a{
+	text-decoration: none;
+	margin-left: 5%;
+	color: black;
+	transition: all 0.4s linear;
+	font-family: 'Josefin Sans', sans-serif;
+
+
+	}
+
+ul li a:hover{
+
+	border-bottom: 2px solid #4458dc;
+
+
+}
+
+.heading{
+	margin-left: 5%;
+	margin-top: 20%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.he1{
+	font-size: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.he2{
+	font-size: 70px;
+	margin-top: 3%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.he3{
+	font-size: 25px;
+	margin-top: 3%;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.btn1{
+	text-decoration: none;
+	padding: 10px 30px;
+	color: white;
+	background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%),radial-gradient(circle at top left,#4458dc,#854fee);
+	border-radius: 5px ;
+	border: 2px solid black;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn2{
+
+	text-decoration: none;
+	padding: 10px 30px;
+	color: black;
+	border-radius: 5px ;
+	border: 2px solid black;
+	margin-left: 3%;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.btn{
+	margin-left: 5%;
+	margin-top: 3%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.logo{
+	margin-top: -35.5%;
+	margin-left: 8%;
+	color: white;
+	animation: aagepiche 2s linear infinite;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+@keyframes aagepiche {
+	
+	from {padding-left: 40px;}
+	to { padding-right: 40px; }
+}
+
